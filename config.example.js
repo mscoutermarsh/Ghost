@@ -61,7 +61,7 @@ config = {
                     database: dbConfig.database,
                     port: dbConfig.port
                 }
-            },
+            }(),
             debug: false
         },
         server: {
